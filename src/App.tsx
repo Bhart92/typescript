@@ -1,14 +1,14 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { Button } from './components/Button/index';
+import CounterManagement from './components/CounterManagement';
 
 function App() {
   return (
-    <div className="App">
-      <Button type='primary'>primary</Button>
-      <Button>Default</Button>
-    </div>
+    <>
+      <h1>My App</h1>
+      <CounterManagement ownerName="Brandon" />
+    </>
   );
 }
 
