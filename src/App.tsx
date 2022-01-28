@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <h1>My App</h1>
-      <CounterManagement ownerName="Brandon" />
+      <CounterManagement ownerName="" />
     </>
   );
 }
