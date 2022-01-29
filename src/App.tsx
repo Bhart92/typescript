@@ -8,11 +8,7 @@ function App() {
   return (
     <>
       <h1>My App</h1>
-<<<<<<< HEAD
       <MyPureComponent />
-=======
-      <CounterManagement ownerName="" />
->>>>>>> 4493adf1f03b2270a6ba6f23bdc6885a7ffb6e14
     </>
   );
 }
