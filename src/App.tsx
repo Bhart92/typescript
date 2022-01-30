@@ -3,12 +3,13 @@ import logo from './logo.svg';
 import './App.css';
 import CounterManagement from './components/CounterManagement';
 import MyPureComponent from './components/MyPureComponent';
+import TrackClick from './components/TrackClick';
 
-function App() {
+export const App: React.FC = () => {
   return (
     <>
       <h1>My App</h1>
-      <MyPureComponent />
+      <TrackClick />
     </>
   );
 }
