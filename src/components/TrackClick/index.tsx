@@ -16,9 +16,9 @@ export default class TrackClick extends PureComponent<TrackClickProps, TrackClic
       });
   }
     render() {
+        const { renderProps } = this.props;
     return <div onClick={this.handleClick}>
-        <h1>Track Click</h1>
-        <h3>Clicks: {this.state.click}</h3>
+            {renderProps(this.state.click)}
     </div>;
   }
 }
